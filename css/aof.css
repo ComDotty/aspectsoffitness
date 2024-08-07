@@ -1,0 +1,217 @@
+/*
+ * Start Aspects of Fitness Custom CSS3 File (http://www.aspectsoffitness.co.uk/)
+ * Copyright 2017 - ComDotty Web Services
+ * To be used in conjunction with Bootstrap 3.3.7 css core
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /* font-family: "Times New Roman"; */
+    font-family: "Tahoma", sans-serif;
+}
+
+.text-vertical-center {
+    margin: 0;
+    padding: 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    text-shadow: 2px 2px #000000;
+    font-size: 5.0em;
+    font-weight: 800;
+}
+
+.text-vertical-center h2 {
+    text-shadow: 2px 2px #000000;
+    font-size: 4.0em;
+    font-weight: 700;
+}
+
+.text-vertical-center p {
+    text-shadow: 2px 2px #000000;
+    font-size: 4.0em;
+    font-weight: 700;
+}
+
+.smaller {
+     font-size: 0.9em;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.sidetitle {
+    margin: 0;
+    padding-left: 15px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    font-size: 3.0em;
+    font-weight: 800;
+}
+
+/* Custom settings for left side image - text combination */
+.cbackingpic {
+    height: 720px;
+    width: 375px;
+    margin-right: 15px;
+    background-image: url("../res/gymhall2.jpg");
+}
+
+.pbackingpic {
+    height: 720px;
+    width: 375px;
+    margin-right: 15px;
+    background-image: url("../res/gymhall3.jpg");
+}
+
+.fbackingpic {
+    height: 720px;
+    width: 375px;
+    margin-right: 15px;
+    background-image: url("../res/dumbells1.jpg");
+}
+
+.mbackingpic {
+    height: 720px;
+    width: 375px;
+    margin-right: 15px;
+    background-image: url("../res/resistancemachines2.jpg");
+}
+
+.obackingpic {
+    height: 720px;
+    width: 375px;
+    margin-right: 15px;
+    background-image: url("../res/barbellweights1.jpg");
+}
+
+.tbackingpic {
+    height: 720px;
+    width: 375px;
+    margin-right: 15px;
+    background-image: url("../res/resistancemachines3.jpg");
+}
+
+/* Custom Horizontal Rules */
+
+hr.small {
+    max-width: 30%;
+}
+
+hr.medium {
+    max-width: 50%;
+}
+
+hr.large {
+    max-width: 70%;
+}
+
+
+hr.xlarge {
+    max-width: 100%;
+}
+
+/* Eliminate gap between collapsed menu items and navbar block */
+.navbar-nav {
+    margin-top: 0px;
+}
+
+/* Header */
+
+.header {
+    margin-top: 0px;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../res/homebg.jpg') no-repeat center center scroll;
+    background-size: cover;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+}
+
+.content {
+    margin-top: 55px;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* About */
+
+.about {
+
+    /* link target scrolling bug to fix */
+    padding: 55px 0 0;
+}
+
+/* Map */
+
+.map {
+    padding: 50px 0 0;
+    height: 575px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+.map iframe {
+    pointer-events: none;
+}
+
+/* Footer */
+
+footer {
+    padding: 25px 0;
+}
+
+#to-top {
+  z-index: 999;
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
